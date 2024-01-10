@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: #425385;
+	font-family: arial, helvetica, sans-serif;
+
+}
+.navbar{
+	overflow: hidden;
+	background-color: #23315c;
+	position: sticky;
+	top: 0;
+}
+.navbar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+.navbar audio{
+	float: right;
+	width: 100px;
+	height: 40px;
+}
+
+.navbar a.right{
+	float: right;
+}
+.navbar a:hover{
+	background-color: purple;
+	color: black;
+}
+.navbar a:visited{
+	background-color: gray;
+	color: black;
+}
+.title{
+	border-radius: 30px;
+}
+.title img{
+	margin: 50px 0 50px 35%;
+	height: 150px;
+	width: 350px;
+	border-radius: 30px
+}
+.img{
+	float: left;
+	border-radius: 30px;
+	display: block;
+	height:150px;
+	width: 200px;
+	margin: 0 0 50px 150px;
+}
+.img:hover,.img2:hover{
+	transform: scale(1.1,1.1);
+	transition:0.5s;
+}
+.img2{
+	float:left;
+	border-radius: 30px;
+	display: block;
+	height: 150px;
+	width: 200px;
+	margin: 0px 0 0 320px
+}
+.sprite{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KWOcAELDYQtEUZZWPfIycN2F7h-mh0DC4Q&usqp=CAU) no-repeat 0px -95px;
+	width: 50px;
+	height: 50px;
+	border-radius:4px;
+	float:left;
+	margin:0 10px 10px 10px;
+}
+.about{
+	background-color: black;
+	margin: 50px 150px 100px 150px;
+	border-radius: 30px;
+}
+.about p{
+	padding: 40px;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+}
+.sprite2 {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KWOcAELDYQtEUZZWPfIycN2F7h-mh0DC4Q&usqp=CAU) no-repeat -155px 0px;
+	width: 50px;
+	height: 50px;
+	border-radius:4px;
+	margin:30px 0 0 75px;
+}
+.navlist{
+	position: relative;
+}
+.navlist li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	top: 0;
+	margin-radius:5px;
+}
+
+.navlist li, .navlist a {
+  height: 44px;
+  display: block;
+  margin: 10px;
+  float: left;
+}
+.desert{
+	background-color: #f5d790;
+	margin: 50px 150px 100px 150px;
+	border-radius: 30px;
+	overflow:hidden;
+	padding: 20px;
+	font-size: 15px;
+	background-size: 300px 300px;
+	border-radius:30px;
+}
+.tundra{
+	background-color: gray;
+	margin: 50px 150px 100px 150px;
+	border-radius: 30px;
+	overflow:hidden;
+	padding: 20px;
+	font-size: 15px;
+	background-size: 300px 300px;
+	border-radius:30px;
+}
+.savanna{
+	background-color: #d18f49;
+	margin: 50px 150px 100px 150px;
+	border-radius: 30px;
+	overflow:hidden;
+	padding: 20px;
+	font-size: 15px;
+	background-size: 300px 300px;
+	border-radius:30px;
+}
+.rainforest{
+	background-color: #26572c;
+	margin: 50px 150px 100px 150px;
+	border-radius: 30px;
+	overflow:hidden;
+	padding: 20px;
+	font-size: 15px;
+	background-size: 300px 300px;
+	border-radius:30px;
+}
+a .sprite2:hover, a .sprite:hover{
+	transform: scale(1.1,1.1);
+	transition:1s;
+	opacity:75%;
+	background-color:blue;
+	transform: rotateX(360deg);
+}
